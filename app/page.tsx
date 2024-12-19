@@ -6,6 +6,9 @@ export default function Home() {
       <main className='flex flex-col gap-8 row-start-2 items-center sm:items-start'>
         <h1>Next.js PWA App!</h1>
         <DeviceOS />
+
+        <input type='text' placeholder='type:text' />
+        <input type='email' placeholder='type:email' />
       </main>
     </div>
   );
